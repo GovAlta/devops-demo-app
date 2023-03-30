@@ -1,8 +1,10 @@
 on:
-  pull_request:
   push:
-    branch:
+    branches:
       - main
+  pull_request:
+      types: [opened, synchronize, reopened]
+
 
 jobs:
   zap_scan:
