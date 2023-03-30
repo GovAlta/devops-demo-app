@@ -1,0 +1,23 @@
+{
+  "name": "simple-demo-node-app",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.6"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "node.js",
+    "demo",
+    "simple"
+  ],
+  "license": "MIT"
+}
