@@ -1,9 +1,10 @@
-name: Demo Call a reusable workflow
+name: Demo of calling a reusable workflow
 
 on:
   pull_request:
 
 jobs:
   call-workflow:
-    uses: GovAlta/DevOps-Foundations/.github/workflows/workflow-demo.yml@main
-
+    uses: GovAlta/DevOps-Foundations/.github/workflows/build-dotnet.yml@main
+    with:
+      version: 6.0.x
