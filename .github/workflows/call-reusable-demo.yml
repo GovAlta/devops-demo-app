@@ -1,4 +1,4 @@
-name: Demo Call a reusable workflow
+name: Demo of calling a reusable workflow
 
 on:
   pull_request:
@@ -7,4 +7,3 @@ jobs:
   call-workflow:
     working-directory: ./demoApp
     uses: GovAlta/DevOps-Foundations/.github/workflows/workflow-demo.yml@main
-
